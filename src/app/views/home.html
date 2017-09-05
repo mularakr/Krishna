@@ -1,0 +1,37 @@
+
+<md-toolbar color="primary">
+<div>
+  <button md-button (click)="sidenav.open()">
+    <md-icon>home</md-icon>
+  </button>
+</div>
+
+<span>AverageBrains</span>
+
+</md-toolbar>
+<md-sidenav-container >
+  <md-sidenav #sidenav >
+    <h3> Coming soon..!</h3>
+  </md-sidenav>
+<h3>DOB : {{dob |date}}</h3>
+<p *ngIf="showSalary">current CTC :  {{ salary | currency:"INR"}}</p>
+<h2>Technologies that i worked on:</h2>
+<md-grid-list cols="4" rowHeight="200px">
+  <md-grid-tile *ngFor="let n of technologies">
+    <md-card class="example-card">
+      <md-card-header class="example-header-image">
+        <md-card-title><h3>{{n}}</h3></md-card-title>
+        </md-card-header>
+      <md-card-content>
+          <p>
+            The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+            A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+            bred for hunting.
+          </p>
+        </md-card-content>
+
+    </md-card>
+
+  </md-grid-tile>
+</md-grid-list>
+</md-sidenav-container>
