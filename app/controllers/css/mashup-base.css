@@ -1,0 +1,19 @@
+.qvplaceholder,
+.qvobject {
+    /* flex: 1 1 auto; */
+    height: 300px;
+    min-width: 400px;
+    margin: 45px 0 0 45px;
+}
+
+.qs-filter {
+    height: 200px;
+}
+
+.qs-kpi {
+    height: 75px;
+}
+
+.qs-text {
+    height: 25px;
+}

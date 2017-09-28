@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'QlikView Sans override';
+    src: url('../fonts/qlikview-sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QlikView Sans override';
+    src: url('../fonts/qlikview-sans-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'QlikView Sans override';
+    src: url('../fonts/qlikview-sans-italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'QlikView Sans override';
+    src: url('../fonts/qlikview-sans-bold-italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'LUI icons override';
+    src: url('../fonts/lui-icons.woff') format('woff'), url('../fonts/lui-icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+input,
+textarea,
+keygen,
+select,
+button,
+isindex,
+.qv-object-info-mobile .qv-mi-toolbar .qv-mi-toolbar-close,
+.qv-object-info-mobile .qv-mi-toolbar .qv-mi-toolbar-title,
+.qui-delayedModal,
+.qv-object *,
+.qv-tooltip,
+.qv-listbox,
+.qv-panel-current-selections,
+.qv-global-search,
+.qv-progressbar,
+.qv-global-selections,
+.qv-selection-toolbar,
+.qui-immidiateContextual {
+    font-family: 'QlikView Sans override', sans-serif;
+}
+
+.qv-preload-font,
+.qv-chart-component,
+.qv-mobile-selections .qv-ms-toolbar .qv-ms-toolbar-close {
+    font-family: 'QlikView Sans override';
+}
+
+.lui-icon,
+.lui-checkbox__check,
+.lui-caret:after,
+.lui-search .lui-search__search-icon,
+.lui-search .lui-search__clear-icon,
+.qui-dropdown:after,
+[data-icon]:before,
+.qv-preload-icons,
+[class^='icon-']:before,
+[class*=' icon-']:before,
+.qui-icontextlist li:before,
+.qui-plainbuttonicon:before,
+.qui-searchfield-old .magnifying-glass,
+.qui-searchfield-old .clear-button,
+#dimensions-dialog #dimension-dialog-timedata,
+.qv-object .lui-icon,
+.qv-object .lui-caret,
+.qv-object .lui-checkbox__check,
+.qv-object .lui-search__search-icon,
+.qv-object .lui-search__clear-icon,
+.em-icon-item-component,
+.qv-filterpane-collapsed button::before,
+.qv-filterpane-collapsed.qv-filterpane-showall::before,
+.qv-object-kpi .kpi-icon,
+.qv-st-column-picker .qv-st-column-picker-more:before,
+.qv-mobile-selections .qv-ms-toolbar,
+.selections-more:before {
+    font-family: 'LUI icons override';
+}

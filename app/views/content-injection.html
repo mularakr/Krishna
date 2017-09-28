@@ -1,0 +1,23 @@
+<!-- BEGIN PAGE BREADCRUMB -->
+<ul class="page-breadcrumb breadcrumb">
+    <li ng-repeat="parent in $state.current.data.lineage">
+        <a ui-sref="{{ parent.sref }}">&nbsp;{{ parent.title }}</a>
+        <i class="fa fa-circle"> </i>
+    </li>
+    <li class="active" data-ng-bind="$state.current.data.pageTitle"> </li>
+</ul>
+<!-- END PAGE BREADCRUMB -->
+<!-- BEGIN MAIN CONTENT -->
+<div class="row">
+    <div class="col-md-12">
+        <div class="portlet light bordered">
+            <div class="portlet-body" ui-view="portlet-body"></div>
+        </div>
+    </div>
+</div>
+<!-- END MAIN CONTENT -->
+<!-- BEGIN MAIN JS-->
+<script>
+    // call any jquery or angularjs code here
+</script>
+<!-- BEGIN MAIN JS -->
